@@ -184,6 +184,23 @@ body {
   grid-column: 2;
 }
 
+.p-date {
+  text-align: right;
+  color: var(--sub);
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+.p-back {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.p-back a {
+  color: var(--main);
+  text-decoration: underline;
+}
+
 /* ===== Contact ===== */
 #contact p {
   text-align: center;
@@ -201,6 +218,14 @@ body {
   text-align: center;
   padding: 1.5rem 0;
   color: var(--sub);
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
 }
 
 /* ===== Accessibility ===== */
