@@ -167,9 +167,9 @@ body {
 /* ===== Info ===== */
 .p-info {
   display: grid;
-  grid-template-columns: 80px 1fr;
+  grid-template-columns: 40px 1fr;
   gap: 0.3rem 1rem;
-  max-width: 300px;
+  max-width: 320px;
   margin: auto;
 }
 
