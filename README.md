@@ -29,8 +29,12 @@
 ## ディレクトリ構成
 
 ```
-/index.html
 /css/style.css
+/404.html
+/index.html
+/privacy.html
+/terms.html
+/taiken-terms.html
 ```
 
 ---
