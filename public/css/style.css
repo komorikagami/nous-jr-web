@@ -230,6 +230,34 @@ body {
   text-decoration: underline;
 }
 
+/* ===== Screenshot ===== */
+.p-screenshots {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.p-screenshots__item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.p-screenshots__item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+.p-screenshots__item figcaption {
+  font-size: 0.85rem;
+  color: var(--sub);
+  margin-top: 0.5rem;
+}
+
 /* ===== Footer ===== */
 .l-footer {
   background: var(--card);
