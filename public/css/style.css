@@ -258,6 +258,13 @@ body {
   margin-top: 0.5rem;
 }
 
+.p-flyer img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
 /* ===== Footer ===== */
 .l-footer {
   background: var(--card);
