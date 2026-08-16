@@ -282,6 +282,44 @@ body {
   justify-content: center;
 }
 
+/* ===== Location Info ===== */
+.p-location-info {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 0;
+  width: 100%;
+  max-width: none;
+  margin: 1.5rem 0 3rem;
+}
+
+.p-location-info {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 0;
+  width: 100%;
+  max-width: none;
+  margin: 1.5rem 0 3rem;
+}
+
+
+.p-location-info dt,
+.p-location-info dd {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+}
+
+
+.p-location-info dt {
+  font-weight: bold;
+  background: #e9edf2;
+}
+
+
+.p-location-info dd {
+  background: var(--card);
+}
+
 /* ===== Accessibility ===== */
 a:focus,
 button:focus {
